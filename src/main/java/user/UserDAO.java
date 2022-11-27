@@ -22,7 +22,6 @@ public class UserDAO {
 			Class.forName("org.mariadb.jdbc.Driver");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 		} catch (Exception e) {
-			System.out.print("안녕하세요");
 			e.printStackTrace();
 		}
 	}
